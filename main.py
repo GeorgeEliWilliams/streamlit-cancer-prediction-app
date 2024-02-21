@@ -6,7 +6,7 @@ import numpy as np
 
 # Function to read and return cleaned data
 def get_clean_data():
-    data = pd.read_csv("data/data.csv")
+    data = pd.read_csv("data.csv")
 
     return data
 
